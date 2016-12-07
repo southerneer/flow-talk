@@ -1,5 +1,7 @@
 // @flo
 
+// and here? What could go wrong?
+
 function total(numbers: Array<number>) {
   var result = 0;
   for (var i = 0; i < numbers.length; i++) {
@@ -8,4 +10,4 @@ function total(numbers: Array<number>) {
   return result;
 }
 
-total([1, 2, 3, 'Hello']);
+total([1, 2, 3, 'hullo']);
