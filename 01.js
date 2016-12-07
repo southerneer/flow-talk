@@ -1,9 +1,9 @@
 function onlyWorksOnNumbers(foo, bar) {
-  return foo * 10;
+  return foo * 10 + bar;
 }
 
-var thisWorks = onlyWorksOnNumbers(10)
-var thisDoesnt = onlyWorksOnNumbers('hello')
+var doesThisWork = onlyWorksOnNumbers(10, 20)
+var howAboutThis = onlyWorksOnNumbers(10, '20')
 
-console.log(thisWorks)
-console.log(thisDoesnt)
+console.log(doesThisWork)
+console.log(howAboutThis)
