@@ -1,0 +1,20 @@
+{
+  "name": "flow-talk",
+  "version": "1.0.0",
+  "description": "flow talk",
+  "main": "index.js",
+  "dependencies": {
+    "flow-bin": "^0.36.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.18.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "flow"
+  ],
+  "author": "southerneer",
+  "license": "ISC"
+}
