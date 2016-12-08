@@ -1,15 +1,19 @@
-// @flow
+// @flo
+
+/*
+  - Optional properties
+  - maybe types
+  - mixed types
+  - enumerated types
+*/
 
 type myObject = {
   myNumber: number,
   myString: string,
-  myBool: boolean,
-  myFunc: Function,
-  // myComplexFunc:
-  // genericFunc:
+  myBool?: boolean,
 }
 
-var obj: myObject = {}
+var aString = 'string'
 
-// function f<A,B>(a: A, b: B): string {
-// }
+var obj: myObject = {
+}
