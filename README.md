@@ -18,4 +18,4 @@
 
 ### Helpful IDE plugins
 - Atom/Nuclide: https://nuclide.io/
-SublimeLinter-flow: https://github.com/SublimeLinter/SublimeLinter-flow
+- SublimeLinter-flow: https://github.com/SublimeLinter/SublimeLinter-flow
